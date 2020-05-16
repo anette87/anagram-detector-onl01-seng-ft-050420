@@ -20,7 +20,7 @@ class Anagram
         #return_array << element
       #end
     #end
-    #return_array
+    #return_arra
     
     array_of_words.select do |element|
       (@word.split("").sort) == (element.split("").sort)
